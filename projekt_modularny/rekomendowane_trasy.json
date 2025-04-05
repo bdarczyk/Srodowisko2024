@@ -1,0 +1,38 @@
+[
+    {
+        "id": 6,
+        "nazwa": "Green Gdańsk",
+        "region": "Gdańsk",
+        "dlugosc_km": 10.2,
+        "trudnosc": 2,
+        "typ_terenu": "forest",
+        "tagi": "nature,hiking"
+    },
+    {
+        "id": 17,
+        "nazwa": "Dolina Kościeliska",
+        "region": "Tatry",
+        "dlugosc_km": 5.5,
+        "trudnosc": 2,
+        "typ_terenu": "valley",
+        "tagi": "valley, nature, family"
+    },
+    {
+        "id": 20,
+        "nazwa": "Puszcza Kampinoska - szlak pieszy",
+        "region": "Mazowsze",
+        "dlugosc_km": 12.0,
+        "trudnosc": 2,
+        "typ_terenu": "forest",
+        "tagi": "forest, nature, hiking"
+    },
+    {
+        "id": 30,
+        "nazwa": "Rezerwat Biosfery Karkonosze - trasa edukacyjna",
+        "region": "Karkonosze",
+        "dlugosc_km": 5.0,
+        "trudnosc": 2,
+        "typ_terenu": "nature",
+        "tagi": "nature, educational, mountain"
+    }
+]
