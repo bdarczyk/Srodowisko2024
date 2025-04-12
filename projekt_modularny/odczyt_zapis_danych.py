@@ -11,6 +11,6 @@ def zapisz_rekomendacje(rekomendowane_trasy):
     with open('rekomendowane_trasy.json', 'w', encoding="utf-8") as plik:
         json.dump(rekomendowane_trasy, plik, indent=4, ensure_ascii=False)
 
-def zapisz_statystyki(statystyki):
-    with open('statystyki_pogody.json', 'w', encoding="utf-8") as plik:
-        json.dump(statystyki, plik, indent=4, ensure_ascii=False)
+def zapisz_rekomendacje_pogodowe(dni):
+    with open("dogodne_dni.json", "w", encoding="utf-8") as plik:
+        json.dump(dni, plik, indent=4, ensure_ascii=False)
