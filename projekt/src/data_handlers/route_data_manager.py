@@ -34,8 +34,8 @@ class RouteDataManager:
     @routes.setter
     def routes(self, new_routes):
         """Pozwala na nadpisanie listy tras."""
-        if isinstance(new_routes, list) and all(isinstance(r, Route) for r in new_routes):
+        if isinstance(new_routes, list) and all(isinstance(r, Route) for r in new_routes): # isinstance sprawdza czy dana wartosc sie zgadza
             self._routes = new_routes
         else:
-            raise ValueError("routes must be a list of Route instances")
+            raise ValueError("routes musi zawierać listę tras będących instancjami klasy Route")
 

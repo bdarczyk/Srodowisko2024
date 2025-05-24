@@ -8,14 +8,13 @@ def main():
     route_manager = RouteDataManager('data/trasy.csv')
     weather_manager = WeatherDataManager('data/pogoda.csv')
     routes = route_manager.load_routes()
-    weather_data = weather_manager.load_weather()
 
     # Pobierz preferencje od użytkownika
     ui = UserInterface()
     preferences = ui.get_user_preferences()
 
     date = preferences._date
-    weather_by_region = {
+    weather_by_region = { # Tworzy słownik: {region_data: dane pogodowe} tylko dla tej konkretnej daty
         f"{route.region}_{date}": weather_manager.get_weather_for(route.region, date)
         for route in routes
     }

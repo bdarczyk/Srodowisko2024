@@ -20,11 +20,11 @@ class WeatherDataManager:
                     sunshine_hours=row["sunshine_hours"],
                     cloud_cover=row["cloud_cover"]
                 )
-                key = f"{row['location_id']}_{row['date']}"
+                key = f"{row['location_id']}_{row['date']}" # tworzy klucz np. Gdansk_2025-05-24
 
                 self.weather_data[key] = weather  # zmiana z listy na słownik
         return self.weather_data
 
-    def get_weather_for(self, location_id, date):
+    def get_weather_for(self, location_id, date): # Zwraca dane pogodowe dla klcza z load_weather
         key = f"{location_id}_{date}"
         return self.weather_data.get(key)

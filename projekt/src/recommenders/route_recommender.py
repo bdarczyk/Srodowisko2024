@@ -7,7 +7,7 @@ class RouteRecommender:
         self.user_preferences = user_preferences
         self.weather_data_map = weather_data
 
-    def recommend_routes(self, routes: list[Route], date: str, top_n=100) -> list[Route]:
+    def recommend_routes(self, routes: list[Route], date: str) -> list[Route]:
         scored_routes = []
 
         for route in routes:
@@ -23,6 +23,5 @@ class RouteRecommender:
             score = comfort
             scored_routes.append((route, score))
 
-        scored_routes.sort(key=lambda x: x[1], reverse=True)
-        return [r for r, _ in scored_routes[:top_n]]
+        return [r for r, _ in scored_routes]
 
