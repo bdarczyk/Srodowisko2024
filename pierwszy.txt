@@ -1,5 +1,0 @@
-Hello World!
-    PID TTY          TIME CMD
-  32447 pts/0    00:00:00 ps
-  nowa linia q-_-p
-
