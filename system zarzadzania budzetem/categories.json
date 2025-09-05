@@ -1,0 +1,28 @@
+{
+    "income": [
+        "Pensja",
+        "Prezent",
+        "Zwrot podatku",
+        "Sprzedaż rzeczy",
+        "Stypendium",
+        "Zysk z inwestycji",
+        "Dodatkowa praca",
+        "Zwrot za delegację",
+        ""
+    ],
+    "expense": [
+        "Jedzenie",
+        "Transport",
+        "Rozrywka",
+        "Rachunki",
+        "Zakupy",
+        "Abonamenty",
+        "Leki",
+        "Podróże",
+        "Opłaty bankowe",
+        "Ubrania",
+        "Edukacja",
+        "Naprawy",
+        "Telefon i internet"
+    ]
+}

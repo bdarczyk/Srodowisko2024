@@ -1,0 +1,16 @@
+{
+    "data_file": "data.json",
+    "export_file": "transactions_export.csv",
+    "categories_file": "categories.json",
+    "default_currency": "PLN",
+    "use_db": false,
+    "budgets": {
+        "Jedzenie": 1000.0,
+        "Transport": 200,
+        "Rozrywka": 150,
+        "Zakupy": 5000.0,
+        "Abonamenty": 100,
+        "Leki": 100,
+        "Telefon i internet": 120
+    }
+}
